@@ -3,12 +3,7 @@
 
     "use strict";
 
-    var lazyLoadInstance = new LazyLoad({
-	    elements_selector: ".p_item__image"
-	    // ... more custom settings?
-	});
-	
-	
+  	$(".p_item__image").unveil();
 
 	// LINE PROGRESS BAR
 	enableLineProgress();
